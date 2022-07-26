@@ -37,12 +37,17 @@
                 <input
                 required 
                 value="+380"
-                pattern="^$"
+                pattern="^([+][0-9]{12})$"
                 type="text"
                 id="form-control"
                 class="form-validation">
-                <div class="form-text">*обязательно к заполнению</div>
-                <div>спасибо</div>
+                <small class="form-text text-muted">
+                   *Обязательно к заполнению.
+                </small>
+                <small class="form-text text-success valid-label">
+                   *Заполнено верно.
+                </small>
+               
               </div>
               <button type="submit" class="btn btn-success">Перезвонить мне</button>
           </form>

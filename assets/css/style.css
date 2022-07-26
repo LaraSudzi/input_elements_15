@@ -33,6 +33,19 @@ input:invalid+div+div {
   display: none;
 }
 
+input + small +small {
+  display: none;
+}
+
+input:valid + small {
+   display: none;
+}
+
+input:valid + small + small {
+  display: inline;
+}
+
 .container-box{
     width: 100%;
 }
+
