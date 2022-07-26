@@ -45,6 +45,10 @@ input:valid + small + small {
   display: inline;
 }
 
+input:valid + small + small + small {
+  display: none;
+}
+
 .container-box{
     width: 100%;
 }
