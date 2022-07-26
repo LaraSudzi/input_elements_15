@@ -14,8 +14,13 @@
   </head>
   <body>
 
-    <div class="container d-flex flex-column gap-3 p-2 align-items-center">
-      <header class="d-flex gap-2 align-items-center">
+    <div class="container d-flex flex-column align-items-center">
+      
+      <div class="container-box">
+          <div class="border border-secondary border-2 p-2 b-3"></div>
+          <div class="border border-secondary border-2 p-2 b-3"></div>
+      </div>
+      <header class="d-flex gap-2 p-3 align-items-center">
           <span class=""><image class="logo" src="./assets/image/Logo2.jpg" alt=""></span>
           <span> <a class="link-secondary text-decoration-none" href="#">Home</a></span>
           <span>|</span>
@@ -32,7 +37,7 @@
                 <input
                 required 
                 value="+380"
-                pattern="^\+38\([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}$|^\+380[0-9]{9}$|^\+38\([0-9]{3}\)[0-9]{7}$"
+                pattern="^$"
                 type="text"
                 id="form-control"
                 class="form-validation">
